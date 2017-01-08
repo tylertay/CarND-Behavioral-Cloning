@@ -42,4 +42,4 @@ The images are shifted to the left or right at random and added with 0.002 steer
 It is then cropped by taking only 60 to 130 pixels of row so that the background distraction is minimized and the part of the car at the bottom is removed.
 Lastly, the images are being flipped horizontally at random with negative of the steering angle if it is being flipped.
 <br>Example training data:
-![image](https://github.com/yongkiat94/CarND-Behavioral-Cloning/blob/master/example.jpg)
+<br>![image](https://github.com/yongkiat94/CarND-Behavioral-Cloning/blob/master/example.jpg)
