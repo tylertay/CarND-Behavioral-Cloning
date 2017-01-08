@@ -22,6 +22,7 @@ from scipy.misc import imresize
 def crop_image_and_resize(image):
     return imresize(image[60:130], (66, 200))
 
+# Credit to Vivek Yadav
 # Add 0.002 steering angle units per pixel shift to the right
 # Subtracted 0.002 steering angle units per pixel shift to the left.
 def trans_image(image, steer, trans_range):
