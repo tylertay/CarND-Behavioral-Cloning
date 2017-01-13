@@ -33,7 +33,7 @@ The model used for this project is the NVDIA's architecture with dropout at one 
 - Layer 9: Fully connected
     - 10 neurons
     - Exponential leaky unit (ELU) activation
-<br>![image](https://github.com/yongkiat94/CarND-Behavioral-Cloning/blob/master/model.jpg)
+<br>![image](https://github.com/yongkiat94/CarND-Behavioral-Cloning/blob/master/model.png)
 
 # Data Preprocessing
 Keras generator is used to augment the images so that augmented images will not be needed to be saved in disc and so that the data will only be read in by batches and not all at once.
